@@ -327,7 +327,22 @@ int main(int argc,char *argv[])
 	                	case SDLK_f:
 	                		if(!done && Nb_joueur>0 && !joueurs[Joueur_courant-1].nage)
 	                			done=Pecher(Joueur_courant,x,y,FILET);
-	                		break;				
+	                		break;
+	                	/*
+						touche ESC => fini le jeu
+	                	*/
+	                    case SDLK_ESCAPE:
+	                        fini = 1;
+	                        break;
+						/*
+						touche Entree => passe au tour suivant
+	                	*/	                
+	                    case SDLK_RETURN:
+	                    	if(mode!=Information)
+	                    		mode=Jeux;
+	                   		go=1;
+	                        break;
+
 		                default:
 							break;
 	                }
