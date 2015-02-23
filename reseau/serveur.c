@@ -51,8 +51,23 @@ int cree_socket_stream (const char * nom_hote, const char * nom_service, const c
 	return sock;
 }
 
+int affiche_adresse_socket (int sock)
+{
+	struct sockaddr_in adresse;
+	socklen_t longueur;
+
+	longueur = sizeof(struct sockaddr_in);
+	if(getsockname(sock, & adresse,& longueur) < 0)
+	{
+		perror("getsockname");
+		return -1;
+	}
+	fprintf(stdout, "IP = %s, PORT = %u \n", inet_ntoa(adresse.sin_addr), ntohs(adresse.sin_port));
+	return 0;
+}
+
 int main(int argc, char const *argv[])
 {
-
+	
 	return 0;
 }
