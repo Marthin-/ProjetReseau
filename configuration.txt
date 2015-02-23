@@ -1,0 +1,158 @@
+Configuration
+
+Avec_musique= 0
+Resolution= 900 * 900
+Nombre_tour_affiche_graphe= 500
+TAILLE= 50
+
+Objets
+
+Autre: Pecheur
+Numero= 0
+taille_canne_a_peche= 100000
+distance_peche_filet= 100000
+debloque_filet= 40
+nb_depl_par_tour= 3
+taille= 2
+--------------------------
+Autre: Pont
+Numero= 1
+soliditee= 20
+Taille= 1
+--------------------------
+Vie: Plancton
+Numero= 2
+duree_survie= 0
+taille_du_bide= 4
+taille= 2
+saut_max= 0
+metabolisme= 0
+gestation= 0
+ratio= 40
+frequence_reproduction= 1
+--------------------------
+Vie: Corail
+Numero= 3
+duree_survie= 14
+taille_du_bide= 2
+taille= 2
+saut_max= 0
+metabolisme= 1
+gestation= 1
+ratio= 4
+frequence_reproduction= 35
+--------------------------
+Vie: Bar
+Numero= 4
+duree_survie= 23
+taille_du_bide= 2
+taille= 3
+saut_max= 3
+metabolisme= 1
+gestation= 1
+ratio= 10
+frequence_reproduction= 2
+--------------------------
+Vie: Thon
+Numero= 5
+duree_survie= 26
+taille_du_bide= 2
+taille= 4
+saut_max= 3
+metabolisme= 1
+gestation= 1
+ratio= 10
+frequence_reproduction= 11
+--------------------------
+Vie: Pollution
+Numero= 6
+duree_survie= 0
+taille_du_bide= 3
+taille= 6
+saut_max= 3
+metabolisme= 1
+gestation= 0
+ratio= 1
+frequence_reproduction= 0
+--------------------------
+Vie: Pyranha
+Numero= 7
+duree_survie= 37
+taille_du_bide= 4
+taille= 5
+saut_max= 3
+metabolisme= 1
+gestation= 1
+ratio= 2
+frequence_reproduction= 40
+--------------------------
+Vie: Requin
+Numero= 8
+duree_survie= 90
+taille_du_bide= 3
+taille= 6
+saut_max= 3
+metabolisme= 1
+gestation= 1
+ratio= 2
+frequence_reproduction= 16
+--------------------------
+Vie: Orque
+Numero= 9
+duree_survie= 190
+taille_du_bide= 6
+taille= 7
+saut_max= 3
+metabolisme= 1
+gestation= 1
+ratio= 1
+frequence_reproduction= 21
+--------------------------
+Vie: Baleine
+Numero= 10
+duree_survie= 2
+taille_du_bide= 2
+taille= 16
+saut_max= 3
+metabolisme= 2
+gestation= 1
+ratio= 3
+frequence_reproduction= 160
+--------------------------
+
+FIN FIN
+
+0 = 4 & 5 & 7 & 8 & 9 & 10 /
+1 = -1 /
+2 = -1 /
+3 = 2 /
+4 = 2 & 1 /
+5 = 2 /
+6 = 3 /
+7 = 4 & 5 & 0 /
+8 = 4 & 0 /
+9 = 8 & 0 /
+10 = 2 & 1 /
+
+0_couleur 0 = 0 0 0
+1_couleur 1 = 102 51 0
+2_couleur 2 = 121 231 102
+3_couleur 3 = 219 90 90
+4_couleur 4 = 138 125 117
+5_couleur 5 = 205 17 17
+6_couleur 6 = 255 255 255
+7_couleur 7 = 255 182 0
+8_couleur 8 = 2 136 252
+9_couleur 9 = 124 90 164
+10_couleur 10 = 98 3 252
+11_couleur fond_graphe = 0 126 169
+12_couleur fond_legende = 0 126 169
+13_couleur mer = 0 0 255
+14_couleur fond_stat = 0 126 169
+15_couleur contour = 0 0 0
+16_couleur num_joueur = 255 255 255
+17_couleur texte = 0 0 0
+18_couleur texte_choisi = 255 255 255
+19_couleur axe_graphe = 255 255 255
+20_couleur fond_sac = 0 126 169
+21_couleur ombres = 105 105 105
