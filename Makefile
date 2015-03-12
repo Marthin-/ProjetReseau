@@ -2,7 +2,7 @@ CC=gcc
 CFLAGS=-W -Wall -O3 -g -ansi -pedantic
 LDFLAGS= -lSDL_mixer -lSDL_image -lSDL_ttf -lSDL
 
-exec: main.o Include/init_fin.o Include/Action_pecheur.o Include/Regle_de_vie.o Include/affichage.o Include/Define.h
+exec: main2.o Include/init_fin.o Include/Action_pecheur.o Include/Regle_de_vie.o Include/affichage.o Include/Define.h
 	$(CC) -o $@ $^ $(LDFLAGS)
 
 debug: exec

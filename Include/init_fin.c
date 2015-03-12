@@ -32,15 +32,13 @@ Chargement de l'écosysteme
 void charger_ecosystem(){
 	int i,j,randX,randY,nombre_case=(TAILLE-1)*(TAILLE-1);
 	srand (time (NULL));
-	/*
-	Calcule le nombre d'animal par espece qui seront présent dans la grille
-	*/
+	
+/*
+Calcule le nombre d'animal par espece qui seront présent dans la grille
 	for(i=0;i<Nb_vivant;i++){
 		espece_d[i].nombre_espece=espece_d[i].ratio*(nombre_case)/100;
 	}
-	/*
 	Puis les place aléatoirement
-	*/
 	for(i=0;i<Nb_vivant;i++){
 		j=espece_d[i].nombre_espece;
 		while(j>0){
@@ -52,6 +50,7 @@ void charger_ecosystem(){
 			}
 		}
 	}
+*/	
 	/*
 	On crée les bords de la carte
 	*/

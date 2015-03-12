@@ -89,7 +89,11 @@ void spawn_rand_pecheur(int J_numero){
 	joueurs[J_numero-1].SpawnY=Jy;
 	joueurs[J_numero-1].nage=NON;
 	joueurs[J_numero-1].peut_nager=NON;
-	/*
+	joueurs[J_numero-1].nombre_de_poissons=0;
+	joueurs[J_numero-1].nombre_planctons=0;
+	joueurs[J_numero-1].nombre_predateurs=0;
+	joueurs[J_numero-1].nombre_herbivores=0;
+/*
 	On vide la case qui va contenir le joueur;
 	*/
 	vide(&grille[Jx][Jy]);

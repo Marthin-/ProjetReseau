@@ -81,6 +81,10 @@ typedef struct pecheurs{
 	int SpawnY;
 	int nage;
 	int peut_nager;
+	int nombre_de_poissons;
+	int nombre_planctons;
+	int nombre_predateurs;
+	int nombre_herbivores;
 }pecheurs;
 
 #define PONT 1
